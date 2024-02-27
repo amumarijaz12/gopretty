@@ -1,5 +1,5 @@
 import React from 'react'
-import Shop from '../screens/Shop'
+
 import {Link} from 'react-router-dom'
 
 const Hero = () => {

@@ -39,7 +39,7 @@ const Favorite = () => {
           );
         })}
       </div>
-      {contextApi.favItems.length == 0 && (
+      {contextApi.favItems.length === 0 && (
         <>
           <div className="  h-screen flex items-center justify-center ">
             <div>

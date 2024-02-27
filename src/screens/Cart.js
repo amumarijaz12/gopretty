@@ -35,7 +35,7 @@ const Cart = () => {
     )}
     </div>
     {
-        contextApi.cartItems.length ==0 && (
+        contextApi.cartItems.length ===0 && (
             <>
                 <div className='  h-screen flex items-center justify-center '>
                 <div>

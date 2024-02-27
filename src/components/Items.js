@@ -103,9 +103,9 @@ const Items = () => {
                           );
 
                           if (check) {
-                            const removething = products.find(
-                              (product) => product.id === items.id
-                            );
+                            // const removething = products.find(
+                            //   (product) => product.id === items.id
+                            // );
                             contextApi.removeProductFromFavoriteList(items.id);
                           } else {
                             const FvrtThing = products.find(

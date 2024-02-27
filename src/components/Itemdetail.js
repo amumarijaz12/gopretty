@@ -1,7 +1,7 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import Navbar from "./Navbar";
 import { useParams } from "react-router-dom";
-import  { CreateContextProvider,Context}  from "../store/Context";
+import  { Context}  from "../store/Context";
 
 const products = [
   {

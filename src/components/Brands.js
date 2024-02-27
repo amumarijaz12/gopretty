@@ -52,7 +52,7 @@ const Brands = () => {
           View All Brands
         </button>
       </div>
- <div className="lg:grid lg:grid-cols-3">
+ {/* <div className="lg:grid lg:grid-cols-3">
      {
       
       allbrands.map((product)=>{
@@ -75,9 +75,9 @@ const Brands = () => {
         </div>
         
        )
-     })}
+     })} */}
     
-</div>
+
  <div className="grid grid-cols-3"></div>
       <div className="bg-[#CDA792] ">
         <div className="lg:grid lg:grid-cols-3  lg:pl-24 pl-4 text-center justify-center">
