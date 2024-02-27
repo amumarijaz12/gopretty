@@ -48,7 +48,7 @@ const Brands = () => {
           Top Brands
         </h1>
         <button onClick={viewallbrands}
-         className=" order-last pr-4 pl-8 text-nowrap font-semibold hover:underline text-slate-400 hover:text-white" onClick={viewallbrands}>
+         className=" order-last pr-4 pl-8 text-nowrap font-semibold hover:underline text-slate-400 hover:text-white" >
           View All Brands
         </button>
       </div>
