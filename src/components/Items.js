@@ -66,7 +66,7 @@ const Items = () => {
             <>
               <div className="bg-slate-200" key={items.id}>
                 <Link to={`/item/${items.id}`}>
-                  <img src={items.img} />
+                  <img alt="" src={items.img} />
                 </Link>
                 <div className="">
                   <h1 className="text-green-400 pl-2 font-serif">
@@ -92,7 +92,7 @@ const Items = () => {
                           }
                         }}
                       >
-                        <img className="p-1 " src="../images/Cart2.svg" />
+                        <img alt="" className="p-1 " src="../images/Cart2.svg" />
                       </button>
 
                       <button
@@ -151,7 +151,7 @@ const Items = () => {
         })}
         {click && (
           <button className="pl-4" onClick={handleProduct}>
-            <img src="../images/showmore.svg" />
+            <img alt="" src="../images/showmore.svg" />
           </button>
         )}
       </div>

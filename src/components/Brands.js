@@ -62,9 +62,9 @@ const Brands = () => {
           <div className="pt-10">
             <h1 className="font-bold pr-24">{product.brand}</h1>
             <div className="flex">
-              <img src={product.image} />
+              <img alt='' src={product.image} />
               <button className="carousel" onClick={handleCarouselClick}>
-                <img src="../images/arrbtn.svg" />
+                <img alt="" src="../images/arrbtn.svg" />
               </button>
             </div>
             <div className="text-white text-center mr-14">
@@ -84,9 +84,9 @@ const Brands = () => {
           <div className="pt-10">
             <h1 className="font-bold pr-24">{allbrands[currentSlide].brand}</h1>
             <div className="flex">
-              <img src={allbrands[currentSlide].image} />
+              <img alt="" src={allbrands[currentSlide].image} />
               <button className="carousel" onClick={handleCarouselClick}>
-                <img src="../images/arrbtn.svg" />
+                <img alt="" src="../images/arrbtn.svg" />
               </button>
             </div>
             <div className="text-white text-center mr-14">
@@ -96,9 +96,9 @@ const Brands = () => {
           <div className="pt-10">
             <h1 className="font-bold pr-24">{allbrands[currentSlides].brand}</h1>
             <div className="flex">
-              <img src={allbrands[currentSlides].image} />
+              <img  alt='' src={allbrands[currentSlides].image} />
               <button className="carousel" onClick={handleCarouselClick1}>
-                <img src="../images/arrbtn.svg" />
+                <img alt="" src="../images/arrbtn.svg" />
               </button>
             </div>
             <div className="text-white text-center mr-14">
@@ -108,9 +108,9 @@ const Brands = () => {
           <div className="pt-10">
             <h1 className="font-bold pr-24">{allbrands[currentSlid].brand}</h1>
             <div className="flex">
-              <img src={allbrands[currentSlid].image} />
+              <img alt='' src={allbrands[currentSlid].image} />
               <button className="carousel" onClick={handleCarouselClick2}>
-                <img src="../images/arrbtn.svg" />
+                <img alt='' src="../images/arrbtn.svg" />
               </button>
             </div>
             <div className="text-white text-center mr-14">

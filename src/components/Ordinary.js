@@ -11,7 +11,7 @@ const Ordinary = () => {
     <div>
       <Navbar/>
      <div className='pt-4 lg:flex'>
-         <img src='../images/ordinary.svg'/>
+         <img alt='' src='../images/ordinary.svg'/>
          <div className='bg-[#E4E5D7]'>
          <h1 className=' pt-20 font-bold text-4xl pl-6'>The Ordinary</h1>
          <h1 className='p-10 text-center text-xl'>The Ordinary is your destination for Skincare, Makeup, Hair, and Body solutions. Discover clinical formulations with integrity.</h1>
@@ -24,7 +24,7 @@ const Ordinary = () => {
      onClick={togglebutton}
      >
         <h1 className='p-1'>Filter By</h1>
-        <img className='mt-1 p-1' src='../images/dropdwn.svg'/>
+        <img alt='' className='mt-1 p-1' src='../images/dropdwn.svg'/>
      </button>
      <Dropdown
                 ProductVisible={ProductVisible}
@@ -32,7 +32,7 @@ const Ordinary = () => {
               />
      <button className='flex bg-green-400 mt-12 mb-3 p-2 gap-2 border-blue-200'>
         <h1 className='p-1'>Sort By</h1>
-        <img className='mt-1 p-1' src='../images/dropdwn.svg'/>
+        <img alt='' className='mt-1 p-1' src='../images/dropdwn.svg'/>
      </button>
      </div>
      <Items/>

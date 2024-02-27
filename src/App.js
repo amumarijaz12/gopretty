@@ -5,7 +5,7 @@ import Home from './screens/Home';
 import Sale from './screens/Sale';
 import Product from './screens/Product';
 import Contact from './screens/Contact';
-import Navbar from './components/Navbar';
+
 import Shop from './screens/Shop';
 import Itemdetail from './components/Itemdetail';
 import Cart from './screens/Cart';

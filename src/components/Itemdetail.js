@@ -47,7 +47,7 @@ const Itemdetail = () => {
       <Navbar />
 
       <div className=" lg:flex lg:w-80% ">
-        <img className="lg:ml-24 lg:mt-24 lg:h-[340px]" src={selecteditem.img} />
+        <img alt="" className="lg:ml-24 lg:mt-24 lg:h-[340px]" src={selecteditem.img} />
          <div className="lg:mt-44 ">
         <h1 className=" pl-2 text-wrap text-xl gap-1 font-serif lg:flex">
         <h1 className="text-black lg:text-xl  font-bold flex "> BrandName: </h1> {selecteditem.brandName}

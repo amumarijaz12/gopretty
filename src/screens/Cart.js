@@ -15,7 +15,7 @@ const Cart = () => {
        return(
         <>
             <div className='mt-8 pt-24  ml-3'>
-            <img className='' key={id} src={Items.img}/>
+            <img alt='' className='' key={id} src={Items.img}/>
             <div className='rounded-md'>
             <div className='mt-4'>
             <h1>{Items.brandName}</h1>

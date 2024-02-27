@@ -26,13 +26,13 @@ const Navbar = () => {
           className="sm:block  lg:pl-3 lg:hidden bg-white hover:bg-slate-200 md:pl-4"
           onClick={toggleMenu}
         >
-          <img className="h-6" src="../images/hamburger.png" alt="Hamburger" />
+          <img alt='' className="h-6" src="../images/hamburger.png" alt="Hamburger" />
         </button>
       
       <div className={`${menuOpen ? "block" : "hidden"} lg:flex `}>
         <div className="lg:flex p-2 lg:mt-0 mt-8 ">
           <Link to="/" className="flex items-center">
-            <img className="" src="../images/logo.svg" alt="Logo" />
+            <img alt='' className="" src="../images/logo.svg" alt="Logo" />
             <button className="text-white font-bold">GoPretty</button>
           </Link>
 
@@ -51,7 +51,7 @@ const Navbar = () => {
                 >
                   {/* <img className="pt-2" src="../images/dropdown.svg" alt="Dropdown" /> */}
                  <Link to='/Product'>Products</Link> 
-                  <img className="mt-1" src="../images/drp.svg"/>
+                  <img alt="" className="mt-1" src="../images/drp.svg"/>
                 </button>
               
               <Dropdown
