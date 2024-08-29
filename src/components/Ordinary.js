@@ -10,12 +10,12 @@ const Ordinary = () => {
   return (
     <div>
       <Navbar/>
-     <div className='pt-4 lg:flex'>
-         <img alt='' src='../images/ordinary.svg'/>
-         <div className='bg-[#E4E5D7]'>
-         <h1 className=' pt-20 font-bold text-4xl pl-6'>The Ordinary</h1>
-         <h1 className='p-10 text-center text-xl'>The Ordinary is your destination for Skincare, Makeup, Hair, and Body solutions. Discover clinical formulations with integrity.</h1>
-        <button className='bg-green-600 p-2  text-white  rounded ml-[400px]'>Learn More</button>
+     <div className='lg:pt-4 md:pt-4 lg:flex'>
+         <img  className="" alt='' src='../images/ordinary.svg'/>
+         <div className='bg-[#E4E5D7] w-full '>
+         <h1 className=' lg:pt-20 font-bold text-wrap text-4xl lg:pl-6'>The Ordinary</h1>
+         <h1 className='lg:p-6 text-center text-wrap text-xl'>The Ordinary is your destination for Skincare, Makeup, Hair, and Body solutions. Discover clinical formulations with integrity.</h1>
+        <button className='bg-green-600 p-2 ml-12 text-white  rounded lg:ml-[400px]'>Learn More</button>
      </div>
      </div>
 

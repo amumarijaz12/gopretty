@@ -5,7 +5,7 @@ const Dropdown = ({ProductVisible,togglebutton}) => {
   
     return (
     ProductVisible && (
-        <div className="bg-white w-[150px] top-[100px] rounded-md p-4  absolute">
+        <div className="bg-white w-[150px] lg:top-[40px] md:top-[40px] sm:top-[100px] rounded-md p-4  absolute">
         <Link to='/Ordinary'>
        <button>The Ordinary</button> 
         </Link>

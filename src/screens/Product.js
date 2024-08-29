@@ -4,7 +4,7 @@ import Items from '../components/Items'
 
 const Product = () => {
   return (
-    <div className='sm:flex'>
+    <div className=''>
     <Navbar/>
     <div>
     <h1 className=' pt-24 pb-2 text-center text-4xl text-green-500'>Our Products </h1>
