@@ -44,7 +44,7 @@ const Items = () => {
   return (
     <>
       <div className="lg:flex justify-between items-center w-full bg-slate-200 p-4">
-        <h1 className="text-2xl font-serif">Best Selling Product</h1>
+        <h1 className="text-2xl lg:pl-10 font-serif">Best Selling Product</h1>
         <button
           className="text-slate-400 font-semibold hover:underline"
           onClick={handleProduct}
@@ -52,10 +52,10 @@ const Items = () => {
           View All Products
         </button>
       </div>
-    <div className="flex gap-1">
-      <div className="lg:grid lg:grid-cols-4 justify-center md:grid-cols-2 gap-6 mt-6 mb-6 ">
+    <div className="flex">
+      <div className="grid lg:grid-cols-4 justify-center items-center  md:grid-cols-2  mt-6 mb-6">
         {products.map((item) => (
-          <div className="rounded-lg p-4 lg:mt-[60px] lg:mb-[60px] ml-8 mr-8 " key={item.id}>
+          <div className="rounded-lg p-4 justify-center items-center lg:mt-[60px] lg:mb-[60px] lg:ml-12" key={item.id}>
             <Link to={`/item/${item.id}`}>
               <img
                 className="w-full h-full object-cover rounded-t-md"
@@ -127,7 +127,7 @@ const Items = () => {
       </div>
 
       {click && (
-        <button className="pl-4" onClick={handleProduct}>
+        <button className="pl-2 " onClick={handleProduct}>
           <img alt="Show more" src="../images/showmore.svg" />
         </button>
       )}

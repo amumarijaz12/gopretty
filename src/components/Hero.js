@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 const Hero = () => {
   return (
     <div className='bg-[#CDA792] w-100'>
-      <div className='lg:flex'>
-        <img alt='' className='pb-8' src='../images/model.svg'/>
+      <div className='lg:flex  lg:items-center  lg:justify-center '>
+        <img alt='' className='pb-8 pl-8' src='../images/model.svg'/>
         <div className='pt-24'>
         <h1 className='text-green-200 pt-12 pl-8 text-4xl font-serif'>Discover</h1>
         <h1 className='text-white text-wrap text-3xl pl-6 pt-3 font-serif'>Our New Product is For You</h1>

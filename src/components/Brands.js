@@ -38,22 +38,22 @@ const Brands = () => {
 
   return (
     <>
-      <div className="lg:flex justify-between mt-8 bg-slate-200">
-        <h1 className="text-2xl text-nowrap pl-8 p-4 font-serif">Top Brands</h1>
+      <div className="lg:flex justify-between mt-8 p-4 bg-slate-200">
+        <h1 className="text-2xl text-nowrap lg:pl-10  font-serif">Top Brands</h1>
         <button
           onClick={viewAllBrands}
-          className="order-last pr-4 pl-8 text-nowrap font-semibold hover:underline text-slate-400 hover:text-white"
+          className="order-last  text-nowrap font-semibold hover:underline text-slate-400 hover:text-white"
         >
           View All Brands
         </button>
       </div>
 
-      <div className="bg-[#CDA792] lg:pt-4">
-        <div className="lg:grid lg:grid-cols-3 gap-4">
+      <div className="bg-[#f0d3c3] lg:pt-4">
+        <div className="lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 justify-center ">
           {[currentSlide, currentSlides, currentSlid].map((index, i) => (
             <div
               key={i}
-              className="flex flex-col items-center p-4 bg-[#CDA792] text-center"
+              className="flex flex-col items-center p-2 bg-[#f0d3c3] text-center"
             >
               <h1 className="font-bold mb-2">{allbrands[index].brand}</h1>
               <div className="flex mb-2 ">
@@ -65,7 +65,7 @@ const Brands = () => {
                   <img alt="Next Slide" src="../images/arrbtn.svg" className="w-8 h-8" />
                 </button>
               </div>
-              <div className="text-white">
+              <div className="text-green-600">
                 <h1>{allbrands[index].discount}</h1>
               </div>
             </div>
